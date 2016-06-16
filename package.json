@@ -2,8 +2,8 @@
   "name": "ember-cli-pusher",
   "author": "Jamie Gilgen and contributors",
   "license": "MIT",
-  "version": "0.1.2",
-  "description": "Include the Ember Pusher library into an Ember CLI application.",
+  "version": "0.1.3",
+  "description": "Deprecated! Please use ember-pusher instead.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
