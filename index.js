@@ -7,7 +7,7 @@ module.exports = {
     this._super.included(app);
 
     this.app.import(app.bowerDirectory + '/pusher/dist/web/pusher.js');
-    this.app.import(app.bowerDirectory + '/ember-pusher/ember-pusher.amd.js', {
+    this.app.import(app.bowerDirectory + '/ember-pusher-component/ember-pusher.amd.js', {
       exports: {
         'ember-pusher/controller':    ['Controller'],
         'ember-pusher/bindings':      ['Bindings'],
